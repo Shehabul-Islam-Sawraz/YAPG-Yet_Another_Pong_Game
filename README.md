@@ -31,7 +31,7 @@ The buzzer is turned off automatically after 1-2 seconds.
 - [Microchip Studio](https://www.microchip.com/en-us/tools-resources/develop/microchip-studio)
 - [Extreme burner](https://extreme-burner-avr.software.informer.com/download/)
 - [Proteus](https://drive.google.com/file/d/15udSfVaX_LnWVT0cLAXcaUxck057d5bu/view?usp=sharing)
-  `Note`: You can also download proteus from [here]()
+  `Note`: You can also download proteus from [here](/YAPG_Materials/%5BTorrentBD%5DProteus%20v8.9%20SP0%20%2B%20License%20.torrent)
 
 ### Setting up the connection
 - Connect the following components to the ATMega32 as follows:
@@ -43,20 +43,20 @@ The buzzer is turned off automatically after 1-2 seconds.
     - **Sonar Sensor**: `Triggers` of the two sonar sensors will be connected to `PIND0` & `PIND1`. And `Echo` will be connected to `PIND2` & `PIND3` correspondingly.
 
 ###Block Diagram
-![Block Diagram]()
+![Block Diagram](/YAPG_Materials/block_diagram.png)
 
 ###Circuit Diagram
-![Circuit Diagram in Proteus]()
+![Circuit Diagram in Proteus](/YAPG_Materials/circuit_diagram.png)
 
 ## How to use the project
 - Create a project on Atmel Studio. You cann see [this](http://atmel-studio-doc.s3-website-us-east-1.amazonaws.com/webhelp/GUID-54E8AE06-C4C4-430C-B316-1C19714D122B-en-US-1/index.html?GUID-0661DC83-89AB-44A0-8AD5-CACC9174EAE7) for reference
 
     `Note`: Select ***GCC C++ Executable Project*** option from the template list & ***ATMega32*** as AVR device
-- Now copy the code from [main.cpp]() and paste it in your project
-- Then extract this [zip]() file and load all the files in your project. For help you can follow [this](https://microchipsupport.force.com/s/article/Adding-files-from-external-directory-in-Atmel-Studio)
+- Now copy the code from [YAPG.cpp](/YAPG_Materials/YAPG.cpp) and paste it in your project
+- Then extract this [zip](/YAPG_Materials/lcd_header.zip) file and load all the files in your project. For help you can follow [this](https://microchipsupport.force.com/s/article/Adding-files-from-external-directory-in-Atmel-Studio)
     `Note`: For the step: `Right click on project/folder in which you want to add the source file. click on Add-> Existing item` select the **project folder** that you have created
 - Now build the solution
-- Open eXtreme Burner and load the hex file. For help follow [this]()
+- Open eXtreme Burner and load the hex file. For help follow [this](/YAPG_Materials/eXtreme_Burner_tutorial.pdf)
     `Note`: Remember to select `ATMega32` as chip from the topbar.
 - Connect the USBasp to ATMega32
 - Now connect the following components to the ATMega32 as follows:
@@ -82,6 +82,13 @@ horizontal axis only.
 when the ball kept moving in a loop if the players don’t move their pad.
 To resolve this loop issue, in code, we tried to detect a loop and give the
 ball a random movement(after collision with pad).
+
+##Useful Links
+-   **GitHub Repository:**
+    https://github.com/Shehabul-Islam-Sawraz/YAPG-Yet_Another_Pong_Game
+
+-   **YouTube Demo:**\
+    https://www.youtube.com/watch?v=NHzaqolZfOw
 
 * * * * *
 
