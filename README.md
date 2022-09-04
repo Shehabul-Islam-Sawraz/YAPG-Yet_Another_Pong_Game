@@ -116,3 +116,7 @@ Bangladesh University of Engineering and Technology (BUET)
 - [Shehabul Islam Sawraz](https://github.com/Shehabul-Islam-Sawraz)
 - [Mohammad Abrar Nafee Akhand](https://github.com/AN-Akhand)
 - [Mobaswirul Islam](https://github.com/ezmata-101)
+
+### Special Gratitude To
+- [Kawshik Kumar Paul](https://github.com/kawshikbuet17)
+- [Md. Zarif Ul Alam](https://github.com/zarif98sjs)
