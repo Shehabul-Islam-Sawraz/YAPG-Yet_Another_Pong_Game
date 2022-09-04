@@ -1,0 +1,4 @@
+Works for AtMega32 as well
+
+https://www.electronicwings.com/avr-atmega/hc-05-bluetooth-module-interfacing-with-atmega1632
+
